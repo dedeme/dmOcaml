@@ -1,0 +1,120 @@
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=true
+replace_tabs=false
+
+[indentation]
+indent_width=2
+indent_type=0
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=test
+base_path=./
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=80
+
+[build-menu]
+NF_00_LB=
+NF_00_CM=
+EX_00_LB=
+EX_00_CM=
+EX_00_WD=
+filetypes=Javascript;C;Go;Haxe;Kut;None;CAML;
+EX_01_LB=
+EX_01_CM=
+EX_01_WD=
+NF_01_CM=
+NF_00_WD=
+NF_01_LB=Compilar obje_tivo personalizado...
+NF_01_WD=
+JavascriptFT_00_LB=jsclean
+JavascriptFT_00_CM=jsclean src:lib www/js;cp -f www/index-clean.html www/index.html
+JavascriptFT_00_WD=%p/js
+NF_02_LB=
+NF_02_CM=
+NF_02_WD=
+JavascriptFT_01_LB=Closure
+JavascriptFT_01_CM=sh make
+JavascriptFT_01_WD=%p/js
+JavascriptFT_02_LB=jstemplate
+JavascriptFT_02_CM=jstemplate %d/%f
+JavascriptFT_02_WD=
+NF_03_LB=
+NF_03_CM=
+NF_03_WD=
+CFT_00_LB=_Compilar
+CFT_00_CM=makemake --prg MMarket --main mmarket --libs dmc ; make > /dev/null
+CFT_00_WD=%p/c
+CFT_01_LB=Tests
+CFT_01_CM=makemake --prg MMarket --main mmarket --libs dmc ; make > /dev/null;cd tests;makemake --libs local:dmc;make > /dev/null;bin/tests
+CFT_01_WD=%p/c
+CFT_02_LB=Template
+CFT_02_CM=ctemplate c
+CFT_02_WD=%p
+GoFT_00_LB=_Build
+GoFT_00_CM=go install
+GoFT_00_WD=%p/go/HxDoc
+GoFT_01_LB=Template
+GoFT_01_CM=gotpl %f
+GoFT_01_WD=
+GoFT_02_LB=Format
+GoFT_02_CM=go fmt %d/*.go
+GoFT_02_WD=
+HaxeFT_00_LB=Compile
+HaxeFT_00_CM=export HAXE_STD_PATH=/dm/haxe/std;haxe build.hxml;
+HaxeFT_00_WD=%p/hx
+HaxeFT_01_LB=
+HaxeFT_01_CM=
+HaxeFT_01_WD=
+HaxeFT_02_LB=
+HaxeFT_02_CM=
+HaxeFT_02_WD=
+KutFT_00_LB=Check
+KutFT_00_CM=kut -c main
+KutFT_00_WD=%p
+KutFT_01_LB=Stop
+KutFT_01_CM=connect4 stopW
+KutFT_01_WD=
+NoneFT_00_LB=build
+NoneFT_00_CM=dune build
+NoneFT_00_WD=%p
+NoneFT_01_LB=run
+NoneFT_01_CM=dune exec test
+NoneFT_01_WD=%p
+CAMLFT_00_LB=_Compilar
+CAMLFT_00_CM=dune build
+CAMLFT_00_WD=%p
+CAMLFT_01_LB=Run
+CAMLFT_01_CM=dune exec test
+CAMLFT_01_WD=%p
+
+[files]
+current_page=1
+FILE_NAME_0=43;CAML;0;EUTF-8;0;1;0;%2Fdm%2FdmOcaml%2Fws%2Ftest%2Fbin%2Fmain.ml;0;2
+FILE_NAME_1=71;None;0;EUTF-8;0;1;0;%2Fdm%2FdmOcaml%2Fws%2Ftest%2Fbin%2Fdune;0;2
+
+[editor]
+line_wrapping=false
+line_break_column=80
+auto_continue_multiline=false
+
+[VTE]
+last_dir=/home/deme/.local/share/Trash/files
+
+[prjorg]
+source_patterns=.hx;
+header_patterns=.hx;
+ignored_dirs_patterns=.*;CVS;bin;www;i18n;
+ignored_file_patterns=*.hxml;*.sh;*.geany;dep;
+generate_tag_prefs=1
+show_empty_dirs=true
+external_dirs=
